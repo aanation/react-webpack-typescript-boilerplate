@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "ES2015",
+        "module": "es2015",
+        "outDir": "dist",
+        "moduleResolution": "node",
+        "removeComments": true, 
+        "strict": true,
+        "noImplicitAny": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "strictPropertyInitialization": false,
+        "sourceMap": true,
+        "typeRoots" : [".src/types", "./node_modules/@types"],
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["./src/*"]
+        },
+        "jsx": "react"
+    },  
+    "include": [
+        "src/**/*"
+    ],
+    "compileOnSave": true
+}

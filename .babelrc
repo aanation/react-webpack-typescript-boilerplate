@@ -1,0 +1,4 @@
+{
+  "presets": [["env", { "modules": false }], "react", "stage-1"],
+  "plugins": ["transform-async-to-generator", "transform-runtime", "syntax-dynamic-import","react-hot-loader/babel"]
+}

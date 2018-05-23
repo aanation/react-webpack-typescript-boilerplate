@@ -1,0 +1,10 @@
+{
+    "extends": [
+        "tslint-config-airbnb"
+    ],
+    "rules": {
+        "variable-name": [true, "check-format", "allow-snake-case", "allow-pascal-case"],
+        "trailing-comma": 
+            false
+    }
+}
